@@ -17,7 +17,7 @@ _Note that you will need to have [Node.js](https://nodejs.org) installed._
 
 ## Get started (play.js)
 
-1. Resolve your modules `Settings > Manage dependencies > Resolve modules`
+1. Resolve your modules via `Settings > Manage dependencies > Resolve modules`.
 2. Start the `dev-serve` script.
 3. Run the `build` script and then view in browser.
 
