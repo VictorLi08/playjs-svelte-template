@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build": "rollup -c",
-    "format": "eslint --fix . && prettier --write .",
+    "lint": "eslint --fix .",
+    "format": "prettier --write .",
     "dev-serve": "sirv public --no-clear --dev",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
