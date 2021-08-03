@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "rollup -c",
+    "format": "eslint --fix . && prettier --write .",
     "dev-serve": "sirv public --no-clear --dev",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
@@ -11,6 +12,10 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "prettier": "^2.3.2",
     "rollup": "^2.3.4",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.0",
