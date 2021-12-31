@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "rollup -c",
-    "lint": "eslint --fix .",
+    "dev:autocompile": "rollup -c -w",
+    "dev:serve": "sirv public --no-clear --dev",
     "format": "prettier --write .",
-    "dev-serve": "sirv public --no-clear --dev",
-    "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "lint": "eslint --fix .",
+    "project:build": "rollup -c",
+    "project:start": "sirv public --no-clear"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
