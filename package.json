@@ -7,8 +7,8 @@
     "dev": "sirv public --no-clear --dev",
     "format": "prettier --write .",
     "lint": "eslint --fix .",
-    "project:build": "rollup -c",
-    "project:start": "sirv public --no-clear"
+    "ci:build": "rollup -c",
+    "ci:start": "sirv public --no-clear"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
