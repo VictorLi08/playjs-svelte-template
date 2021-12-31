@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev:autocompile": "rollup -c -w",
-    "dev:serve": "sirv public --no-clear --dev",
+    "autocompile": "rollup -c -w",
+    "dev": "sirv public --no-clear --dev",
     "format": "prettier --write .",
     "lint": "eslint --fix .",
     "project:build": "rollup -c",
