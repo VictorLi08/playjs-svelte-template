@@ -18,10 +18,10 @@ _Note that you will need to have [Node.js](https://nodejs.org) installed._
 ## Get started (play.js)
 
 1. Resolve your modules via `Settings > Manage dependencies > Resolve modules`.
-2. Start the `autocompile` script to have Rollup watch the source for changes and build as necessary.
-3. Run the `dev` script to start the dev server.
+2. Start the `dev:autocompile` script to have Rollup watch the source for changes and build as necessary.
+3. Run the `dev:serve` script to start the dev server.
 
-**NOTE**: Live reloading will only work if both scripts are running at the same time.
+**NOTE**: Live reloading will only work if both of these scripts are running at the same time.
 
 ## Get started (desktop)
 
