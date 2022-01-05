@@ -7,6 +7,9 @@
     "dev:serve": "sirv public --no-clear --dev",
     "format": "prettier --write .",
     "lint": "eslint --fix .",
+    "test": "mocha",
+    "npm:audit": "npm audit",
+    "npm:outdated": "npm outdated",
     "site:build": "rollup -c",
     "site:serve": "sirv public --no-clear"
   },
@@ -16,6 +19,8 @@
     "eslint": "^7.32.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-svelte3": "^3.2.0",
+    "mocha": "^9.1.3",
+    "npm": "^8.3.0",
     "prettier": "^2.3.2",
     "prettier-plugin-svelte": "^2.5.1",
     "rollup": "^2.3.4",
